@@ -1,0 +1,32 @@
+# Local Terraform directories and files
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash logs
+crash.log
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# IDE/editor files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# AWS credentials or secrets
+*.pem
+*.key
+*.env
