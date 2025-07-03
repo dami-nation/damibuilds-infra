@@ -35,6 +35,7 @@ To deploy or update the infrastructure:
 terraform init
 terraform plan
 terraform apply
+```
 
 Ensure your AWS credentials are configured locally (~/.aws/credentials or via environment variables).
 
