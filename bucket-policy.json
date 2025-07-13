@@ -10,9 +10,10 @@
       "Resource": "arn:aws:s3:::damibuilds.com/*",
       "Condition": {
         "StringEquals": {
-          "AWS:SourceArn": "arn:aws:cloudfront::ACCOUND-ID:distribution/DISTRIBUTION-ID"
+          "AWS:SourceArn": "arn:aws:cloudfront::ACCOUNT-ID:distribution/DISTRIBUTION-ID"
         }
       }
     }
   ]
 }
+

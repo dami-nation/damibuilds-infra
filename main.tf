@@ -62,7 +62,7 @@ resource "aws_cloudfront_distribution" "website" {
   }
 
   viewer_certificate {
-    acm_certificate_arn = "arn:aws:acm:us-east-1:ACCOUNT-ID:certificate/CERTIFICATE-ID"
+    acm_certificate_arn = "arn:aws:acm:us-east-1:ACCOUNTID:certificate/DISTRIBUTIONID"
     ssl_support_method  = "sni-only"
     minimum_protocol_version = "TLSv1.2_2021"
   }
@@ -77,4 +77,3 @@ resource "aws_cloudfront_distribution" "website" {
     Name = "DamiBuilds CDN"
   }
 }
-
