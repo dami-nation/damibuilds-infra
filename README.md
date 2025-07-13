@@ -6,10 +6,10 @@ This repository contains the Terraform code for deploying and managing the infra
 
 The site is hosted using the following AWS services:
 
-- **S3** — Static website file storage
-- **CloudFront** — Global CDN with HTTPS and domain aliasing
-- **ACM** — TLS certificate for HTTPS
-- **Route 53** — DNS routing for domain and subdomain
+- **S3** Static website file storage
+- **CloudFront** Global CDN with HTTPS and domain aliasing
+- **ACM** TLS certificate for HTTPS
+- **Route 53** DNS routing for domain and subdomain
 
 
 This repository contains
