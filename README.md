@@ -1,6 +1,6 @@
-# damibuilds-infra
+# oladami-infra
 
-This repository contains the Terraform code for deploying and managing the infrastructure behind [damibuilds.com](https://damibuilds.com), a static website hosted on AWS.
+This repository contains the Terraform code for deploying and managing the infrastructure behind [oladami.com](https://oladami.com), a static website hosted on AWS.
 
 ## Infrastructure Overview
 
@@ -16,7 +16,7 @@ This repository contains
 - main.tf # Main Terraform configuration
 - outputs.tf # Output variables
 - bucket-policy.json # S3 bucket to allow CloudFront access
--.gitignore # Ignore local artifacts and and state files
+-.gitignore # Ignore local artifacts and state files
 - README.md # This file
 
 
@@ -24,7 +24,7 @@ This repository contains
 
 - Automatic TLS via ACM and CloudFront
 - Secure access: S3 bucket is private, CloudFront OAC is used
-- HTTPS redirect for `www.damibuilds.com` and root domain
+- HTTPS redirect for `www.oladami.com` and root domain
 - Fully managed via Infrastructure as Code (IaC)
 
 ##  Deployment Steps
